@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+# Guardiões da Infância 👶🛡️
 
-## Project info
+https://infancia-protetora-digital.lovable.app/ Link para visualização
+Este projeto consiste em uma aplicação web educativa voltada para a proteção dos direitos das crianças. A plataforma tem como objetivo conscientizar a população, especialmente pais, educadores e crianças, sobre os sinais de abuso infantil, formas de denúncia e canais de apoio.
 
-**URL**: https://lovable.dev/projects/ad8f9310-c5ef-415b-a9ff-49be3d1602d5
+## ✨ Funcionalidades
 
-## How can I edit this code?
+- Página inicial informativa sobre a causa
+- Conteúdos educativos sobre tipos de violência infantil
+- Lista de contatos de emergência e canais de denúncia
+- Interface responsiva e acessível.
 
-There are several ways of editing your application.
+## 🛠️ Tecnologias Utilizadas
 
-**Use Lovable**
+- [React](https://reactjs.org/) com [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) para estilização
+- [Vite](https://vitejs.dev/) como ferramenta de build
+- [Bun](https://bun.sh/) como gerenciador de pacotes
+- Configurações adicionais com ESLint e PostCSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ad8f9310-c5ef-415b-a9ff-49be3d1602d5) and start prompting.
+## 📂 Estrutura do Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+projeto_Guardioes_da_Infancia/
+├── public/ # Arquivos estáticos
+├── src/ # Código-fonte principal
+│ ├── App.tsx # Componente principal da aplicação
+│ ├── index.css # Estilos globais
+├── index.html # Página principal
+├── tailwind.config.ts # Configuração do Tailwind
+├── vite.config.ts # Configuração do Vite
+├── package.json # Dependências e scripts
 
-**Use your preferred IDE**
+shell
+Copiar
+Editar
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ▶️ Como Executar o Projeto
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Usando Bun
+```bash
+bun install
+bun dev
+Ou usando npm (alternativamente)
+bash
+Copiar
+Editar
+npm install
 npm run dev
-```
+Acesse a aplicação em http://localhost:5173 (ou porta indicada no terminal).
 
-**Edit a file directly in GitHub**
+📚 Objetivo Acadêmico
+Este projeto foi desenvolvido como parte de um trabalho universitário com foco na aplicação de tecnologias modernas de desenvolvimento web para causas sociais. Além de atender requisitos técnicos, o projeto busca promover a conscientização sobre a importância da denúncia e da proteção infantil.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ad8f9310-c5ef-415b-a9ff-49be3d1602d5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🤝 Contribuições
+Atualmente o projeto é acadêmico e não aceita contribuições externas, mas sugestões são bem-vindas!
