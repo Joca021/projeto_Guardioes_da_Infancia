@@ -1,22 +1,24 @@
 # Guardiões da Infância 👶🛡️
 
-https://infancia-protetora-digital.lovable.app/ Link para visualização
-Este projeto consiste em uma aplicação web educativa voltada para a proteção dos direitos das crianças. A plataforma tem como objetivo conscientizar a população, especialmente pais, educadores e crianças, sobre os sinais de abuso infantil, formas de denúncia e canais de apoio.
+Uma aplicação web educativa voltada para a proteção dos direitos das crianças. A plataforma tem como objetivo conscientizar a população, especialmente pais, educadores e crianças, sobre os sinais de abuso infantil, formas de denúncia e canais de apoio.
 
 ## ✨ Funcionalidades
 
-- Página inicial informativa sobre a causa
-- Conteúdos educativos sobre tipos de violência infantil
-- Lista de contatos de emergência e canais de denúncia
-- Interface responsiva e acessível.
+- 🏠 Página inicial informativa sobre a causa
+- 📚 Conteúdos educativos sobre tipos de violência infantil
+- 📞 Lista de contatos de emergência e canais de denúncia
+- 💬 Seção de depoimentos
+- 🎯 Orientações sobre como agir em situações de risco
+- 📱 Interface responsiva e acessível
 
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) com [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) para estilização
 - [Vite](https://vitejs.dev/) como ferramenta de build
-- [Bun](https://bun.sh/) como gerenciador de pacotes
-- Configurações adicionais com ESLint e PostCSS
+- [React Router](https://reactrouter.com/) para navegação
+- [Radix UI](https://www.radix-ui.com/) para componentes acessíveis
+- [Lucide React](https://lucide.dev/) para ícones
 
 ## 📂 Estrutura do Projeto
 
